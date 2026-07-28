@@ -42,24 +42,42 @@ nav {
     margin: 0;
     padding: 0;
     min-width: 150px;
-
-
-
-
 }
 
 .navbar ul li a {
-    padding:10px;
+    padding: 10px;
 }
 
 footer {
     background: #222
     color#fff;
-     margin: 0 10px;
-     text-decoration: none;
-     font-size: 20px
+    text-align: center;
+    padding: 15px;
+}
+
+.socal-icons a {
+color: #fff;
+margin: 0 10px;
+text-decoration: none;
+font-size:20px ;
 
 }
+
+@media ( max-width: 768px) {
+    nav{          
+        flex-direction: column;
+    }
+
+
+    .navbar {    
+        flex-direction: column;
+
+
+    }
+}
+
+
+
 
 
 
