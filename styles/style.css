@@ -69,7 +69,8 @@ font-size:20px ;
     }
 
 
-    .navbar {    
+    .navbar {  
+      
         flex-direction: column;
 
 
@@ -79,14 +80,53 @@ font-size:20px ;
 
 
 
+.Formulario  {
+      max-width: 400px;
+    margin: 20px;
+   padding: 20px;
+   background: rgba(0, 0,0, 0,1)
+   border-radius: 8px;
+   box-shadow: 0 0 10px 
+    }
 
+.Formulario label { do not use empty  rulesets;
+    display: block;
+    margin-bottom: 5px;
+font-weight: bold;
+color: #fff; 
 
+}
+.Formulario input,
+.Formulario textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
 
+.Formulario button {
+    background: white;
+    color: black;  
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px
+}
 
+.Formulario button:hover {
+    background: #444;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
 
+h2 {
+    text-align: center;
 
-
-
+    
+}
 
 
 
